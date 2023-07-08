@@ -41,7 +41,6 @@ const PasswordInput: FC<PasswordInputProps> = ({
           id={id}
           type={showPass ? "text" : "password"}
           placeholder={placeholder}
-          required={required}
           disabled={disabled}
           {...register(id, { required })}
           className={clsx(
