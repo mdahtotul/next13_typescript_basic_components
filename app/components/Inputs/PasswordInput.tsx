@@ -41,6 +41,7 @@ const PasswordInput: FC<PasswordInputProps> = ({
           id={id}
           type={showPass ? "text" : "password"}
           placeholder={placeholder}
+          autoComplete="on"
           disabled={disabled}
           {...register(id, { required })}
           className={clsx(

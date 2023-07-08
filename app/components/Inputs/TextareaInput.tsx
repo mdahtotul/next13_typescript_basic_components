@@ -36,7 +36,6 @@ const TextAreaInput: FC<TextareaInputProps> = ({
         placeholder={placeholder}
         rows={4}
         cols={50}
-        required={required}
         disabled={disabled}
         {...register(id, { required })}
         className={clsx(

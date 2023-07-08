@@ -37,7 +37,6 @@ const TextInput: FC<TextInputProps> = ({
         id={id}
         type={type}
         placeholder={placeholder}
-        required={required}
         disabled={disabled}
         {...register(id, { required })}
         className={clsx(

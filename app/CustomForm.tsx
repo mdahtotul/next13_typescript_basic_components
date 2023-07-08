@@ -75,6 +75,7 @@ const AuthForm = () => {
       {/* select input */}
       <div className="">
         <SelectInput
+          id="gender"
           label="Gender"
           value={gender}
           options={genders.map((_) => ({
@@ -92,6 +93,7 @@ const AuthForm = () => {
       {/* multi select input */}
       <div className="">
         <SelectInput
+          id="members"
           label="Members"
           value={members}
           options={users.map((_) => ({
