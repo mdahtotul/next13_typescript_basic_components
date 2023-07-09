@@ -152,7 +152,7 @@ const AuthForm = () => {
         <Button
           type="submit"
           tooltip="This is a tooltip"
-          fullWidth={false}
+          fullWidth={true}
           isLoading={false}
           isDisabled={false}
           isRounded={false}

@@ -1,4 +1,5 @@
 import AuthForm from "./CustomForm";
+import ShowModal from "./components/Modals/ShowModal";
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
         Some basic components using tailwind, typescript, next13{" "}
       </h1>
       <AuthForm />
+      <br />
+      <ShowModal />
     </main>
   );
 }
