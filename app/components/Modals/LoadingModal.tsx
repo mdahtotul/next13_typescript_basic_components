@@ -3,12 +3,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 
-interface LoadingModalProps {
-  isOpen?: boolean;
-  onClose: () => void;
-}
-
-const LoadingModal = () => {
+const LoadingModal = ({ children }: { children: React.ReactNode }) => {
   return (
     <Transition.Root show as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={() => {}}>
@@ -26,7 +21,7 @@ const LoadingModal = () => {
 
         <div className="fixed inset-0 z-10 overflow-y-auto">
           <div className="flex items-center justify-center min-h-full p-4 text-center">
-            <Dialog.Panel>Loading...</Dialog.Panel>
+            <Dialog.Panel>{children}</Dialog.Panel>
           </div>
         </div>
       </Dialog>

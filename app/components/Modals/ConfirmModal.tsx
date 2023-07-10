@@ -23,8 +23,6 @@ const ConfirmModal: FC<ConfirmModalProps> = ({
   onClose,
   executeFunction,
 }) => {
-  console.log("🚀 ~ file: ConfirmModal.tsx:25 ~ isLoading:", isLoading);
-
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <div className="sm:flex sm:items-start">

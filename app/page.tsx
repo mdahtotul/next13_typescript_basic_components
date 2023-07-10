@@ -1,5 +1,7 @@
 import AuthForm from "./CustomForm";
+import Button from "./components/Button";
 import ShowModal from "./components/Modals/ShowModal";
+import CardSkeleton from "./components/Skeletons/CardSkeleton";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <AuthForm />
       <br />
       <ShowModal />
+      <br />
+      <CardSkeleton />
     </main>
   );
 }
