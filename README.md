@@ -22,3 +22,5 @@ Some basic components using next 13, typescript, tailwindcss, react-select, reac
 - TextField
 - PasswordField
 - Single and Multiple select field
+
+[`Github Repo`](https://github.com/mdahtotul/next13_typescript_basic_components)

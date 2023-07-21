@@ -1,5 +1,5 @@
 // import LoadingModal from "../components/Modals/LoadingModal";
-import CardSkeleton from "../components/Skeletons/CardSkeleton";
+import CardSkeleton from "../../components/Skeletons/CardSkeleton";
 
 const ShowSkeletonLoading = () => {
   return (

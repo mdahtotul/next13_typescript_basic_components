@@ -1,4 +1,4 @@
-import OtpField from "../components/OtpField/OtpField";
+import OtpField from "@/rootComp/OtpField/OtpField";
 
 export default function ShowSkeleton() {
   return (

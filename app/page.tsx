@@ -1,7 +1,6 @@
+import ShowModal from "@/rootComp/Modals/ShowModal";
+import CardSkeleton from "@/rootComp/Skeletons/CardSkeleton";
 import AuthForm from "./CustomForm";
-import Button from "./components/Button";
-import ShowModal from "./components/Modals/ShowModal";
-import CardSkeleton from "./components/Skeletons/CardSkeleton";
 
 export default function Home() {
   return (

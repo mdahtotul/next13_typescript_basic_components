@@ -1,15 +1,15 @@
 "use client";
 
 import { devStacks, devTypes, genders, users } from "@/dummyData";
+import Button from "@/rootComp/Button";
+import CheckInput from "@/rootComp/Inputs/CheckInput";
+import PasswordInput from "@/rootComp/Inputs/PasswordInput";
+import RadioInput from "@/rootComp/Inputs/RadioInput";
+import SelectInput from "@/rootComp/Inputs/SelectInput";
+import TextInput from "@/rootComp/Inputs/TextInput";
+import TextAreaInput from "@/rootComp/Inputs/TextareaInput";
 import { useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
-import Button from "./components/Button";
-import CheckInput from "./components/Inputs/CheckInput";
-import PasswordInput from "./components/Inputs/PasswordInput";
-import RadioInput from "./components/Inputs/RadioInput";
-import SelectInput from "./components/Inputs/SelectInput";
-import TextInput from "./components/Inputs/TextInput";
-import TextAreaInput from "./components/Inputs/TextareaInput";
 
 const AuthForm = () => {
   const [showPass, setShowPass] = useState(false);
@@ -157,8 +157,7 @@ const AuthForm = () => {
           isDisabled={false}
           isRounded={false}
           primary
-          onClick={() => {}}
-        >
+          onClick={() => {}}>
           Sign Up
         </Button>
       </div>
